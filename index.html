@@ -6,7 +6,7 @@
     <title>Learn Romanian Online</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f7fc;
             color: #333;
             margin: 0;
@@ -30,12 +30,13 @@
             margin-top: 20px;
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #007BFF;
         }
 
         p {
             line-height: 1.6;
+            color: #555;
         }
 
         img {
@@ -48,10 +49,29 @@
         ul {
             padding: 0;
             list-style-type: none;
+            color: #555;
         }
 
         li {
             margin-bottom: 10px;
+        }
+
+        .testimonial {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .testimonial p {
+            color: #555;
+        }
+
+        .benefits {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
         }
 
         footer {
@@ -73,7 +93,7 @@
     <section>
         <h2>About Me</h2>
         <img src="about_me_image.jpg" alt="About Me Image">
-        <p>Welcome to my website! My name is Saferian, and I am dedicated to providing high-quality Romanian language courses. Whether you are a foreign worker from Asia, looking for conversational skills, preparing for the Romanian citizenship exam, or starting an introductory year, I have courses tailored to meet your needs.</p>
+        <p>Welcome to my website! My name is [Your Name], and I am dedicated to providing high-quality Romanian language courses. Whether you are a foreign worker from Asia, looking for conversational skills, preparing for the Romanian citizenship exam, or starting an introductory year, I have courses tailored to meet your needs.</p>
     </section>
 
     <section>
@@ -106,18 +126,18 @@
 
     <section>
         <h2>Testimonials</h2>
-        <div>
+        <div class="testimonial">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Sed ut odio vel lacus cursus aliquet."</p>
             <p>- John Doe, Happy Learner</p>
         </div>
 
-        <div>
+        <div class="testimonial">
             <p>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod justo nec fermentum malesuada."</p>
             <p>- Jane Smith, Satisfied Student</p>
         </div>
     </section>
 
-    <section>
+    <section class="benefits">
         <h2>Benefits of Learning Romanian</h2>
         <ul>
             <li>Discover a rich and diverse culture</li>
